@@ -1,0 +1,11 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
+<snippet>
+  <content><![CDATA[<firebase-document
+	location="https://${1:<YOUR-FIREBASE-APP>}.firebaseio.com"
+	data="{{${2:data}}}">
+</firebase-document>
+$3]]></content>
+  <tabTrigger>fbd</tabTrigger>
+  <scope>text.html</scope>
+  <description>firebase-document</description>
+</snippet>

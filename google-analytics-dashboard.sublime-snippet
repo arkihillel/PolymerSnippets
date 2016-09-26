@@ -1,0 +1,19 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
+<snippet>
+  <content><![CDATA[<google-analytics-dashboard
+  <google-analytics-view-selector></google-analytics-view-selector>
+  <google-analytics-date-selector></google-analytics-date-selector>
+
+  <google-analytics-chart
+    metrics="ga:${1:sessions}"
+    dimensions="ga:${2:country}"
+    sort="-ga:${3;sessions}"
+    max-results="${4:5}"
+    chart-type="${5:column}">
+  </google-analytics-chart>
+</google-analytics-dashboard>
+$6]]></content>
+  <tabTrigger>gad</tabTrigger>
+  <scope>text.html</scope>
+  <description>google-analytics-dashboard</description>
+</snippet>

@@ -1,0 +1,11 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
+<snippet>
+  <content><![CDATA[<google-feeds
+  feed='${1:feed}'
+  results="{{${2:result}}}">
+</google-feeds>
+$3]]></content>
+  <tabTrigger>gfe</tabTrigger>
+  <scope>text.html</scope>
+  <description>google-feeds</description>
+</snippet>

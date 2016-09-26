@@ -1,12 +1,10 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
 <snippet>
-	<content><![CDATA[
-<paper-header-panel class="flex">
-	<paper-toolbar>${1}</paper-toolbar>
-	<div>$0</div>
-</paper-header-panel>
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>paper-header-panel</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>text.html</scope>
+  <content><![CDATA[<paper-header-panel class="flex">
+  <paper-toolbar>${1}</paper-toolbar>
+  <div>$0</div>
+</paper-header-panel>$2]]></content>
+  <tabTrigger>paper-header-panel</tabTrigger>
+  <scope>text.html</scope>
+  <description>paper header panel</description>
 </snippet>

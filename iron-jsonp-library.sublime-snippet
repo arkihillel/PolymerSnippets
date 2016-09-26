@@ -1,0 +1,11 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
+<snippet>
+  <content><![CDATA[<iron-jsonp-library
+  library-url="${1}"
+  notify-event="${2}"
+  library-loaded="${3}"></iron-jsonp-library>
+$4]]></content>
+  <tabTrigger>iron-jsonp-library</tabTrigger>
+  <scope>text.html</scope>
+  <description>iron jsonp library</description>
+</snippet>

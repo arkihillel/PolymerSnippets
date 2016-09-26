@@ -1,0 +1,11 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
+<snippet>
+  <content><![CDATA[<google-analytics-date-selector
+  start-date="${1:30daysAgo}"
+  end-date="${2:today}">
+</google-analytics-date-selector>
+$3]]></content>
+  <tabTrigger>gads</tabTrigger>
+  <scope>text.html</scope>
+  <description>google-analytics-date-selector</description>
+</snippet>

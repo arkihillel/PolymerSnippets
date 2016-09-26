@@ -1,0 +1,14 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
+<snippet>
+  <content><![CDATA[<google-client-loader
+  id="${1:apiLoader}"
+  name="${2:urlshortener}"
+  version="${3:v1}"
+  on-google-api-load="${4:onGoogleApiLoaded}"
+  on-google-api-load-error="${5:onGoogleApiLoadError}">
+</google-client-loader>
+$6]]></content>
+  <tabTrigger>gcl</tabTrigger>
+  <scope>text.html</scope>
+  <description>google-client-loader</description>
+</snippet>

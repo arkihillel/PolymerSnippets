@@ -1,13 +1,12 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
 <snippet>
-	<content><![CDATA[
-<iron-pages selected="${1:0}">
-	<section>$2</section>
-	<section>$3</section>
-	<section>$4</section>
+  <content><![CDATA[<iron-pages selected="${1:0}">
+  <section>$2</section>
+  <section>$3</section>
+  <section>$4</section>
 </iron-pages>
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>iron-pages</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>text.html</scope>
+$5]]></content>
+  <tabTrigger>iron-pages</tabTrigger>
+  <scope>text.html</scope>
+  <description>iron pages</description>
 </snippet>

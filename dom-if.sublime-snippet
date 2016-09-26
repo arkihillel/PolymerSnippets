@@ -1,0 +1,8 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
+<snippet>
+  <content><![CDATA[<template is="dom-if" if="$1"${2: restamp="true"}>
+  $0
+</template>$3]]></content>
+  <tabTrigger>dom-if</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

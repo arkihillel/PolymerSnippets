@@ -1,0 +1,13 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
+<snippet>
+  <content><![CDATA[$2BehaviorImpl = {
+  properties: {
+    $3
+  }
+};
+
+$2Behavior = [$2BehaviorImpl];$4]]></content>
+  <tabTrigger>pbi</tabTrigger>
+  <scope>text.html</scope>
+  <description>polymer behavior implement</description>
+</snippet>

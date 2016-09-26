@@ -1,11 +1,10 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
 <snippet>
-	<content><![CDATA[
-<paper-autogrow-textarea id="${1:a1}">
-	<textarea id="${2:t1}"></textarea>
+  <content><![CDATA[<paper-autogrow-textarea id="${1:a1}">
+  <textarea id="${2:t1}">$3</textarea>
 <paper-autogrow-textarea>
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>paper-autogrow-textarea</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>text.html</scope>
+$4]]></content>
+  <tabTrigger>paper-autogrow-textarea</tabTrigger>
+  <scope>text.html</scope>
+  <description>paper autogrow textarea</description>
 </snippet>

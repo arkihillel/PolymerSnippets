@@ -1,0 +1,16 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
+<snippet>
+  <content><![CDATA[<google-map-search
+  map="[[${1:map}]]"
+  query="[[${2:pizza}]]"
+  results="{{${3:results}}}"
+  ${4:radius="10"}
+  ${5:latitude="37.779"}
+  ${6:longitude="-122.3892"}
+  google-map-search-results="${7:onSearchResults}">
+</google-map-search>
+$8]]></content>
+  <tabTrigger>gms</tabTrigger>
+  <scope>text.html</scope>
+  <description>google-map-search</description>
+</snippet>

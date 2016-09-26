@@ -1,0 +1,13 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
+<snippet>
+  <content><![CDATA[<dom-module id="${1:shared-styles}">
+  <template>
+    <style>
+      $0
+    </style>
+  </template>
+</dom-module>$2]]></content>
+  <tabTrigger>pcst</tabTrigger>
+  <scope>text.html</scope>
+  <description>Polymer custom-style template</description>
+</snippet>

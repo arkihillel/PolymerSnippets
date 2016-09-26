@@ -1,0 +1,12 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
+<snippet>
+  <content><![CDATA[<google-analytics-view-selector
+  account="{{${1:account}}}"
+  metrics="ga:${2:sessions}"
+  dimensions="ga:${3:date}">
+</google-analytics-view-selector>
+$4]]></content>
+  <tabTrigger>gavs</tabTrigger>
+  <scope>text.html</scope>
+  <description>google-analytics-view-selector</description>
+</snippet>

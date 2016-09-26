@@ -1,0 +1,12 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
+<snippet>
+  <content><![CDATA[<google-signin-aware
+  client-id="${1:clientId}"
+  ${2:app-package-name="AndroidAppName"}
+  ${3:scopes="https://www.googleapis.com/auth/drive"}>
+</google-signin-aware>
+$4]]></content>
+  <tabTrigger>gsia</tabTrigger>
+  <scope>text.html</scope>
+  <description>google-signin-aware</description>
+</snippet>

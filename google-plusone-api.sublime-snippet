@@ -1,0 +1,10 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
+<snippet>
+  <content><![CDATA[<google-plusone-api
+  on-api-load="${1:googlePlusLoaded}">
+</google-plusone-api>
+$2]]></content>
+  <tabTrigger>gpapi</tabTrigger>
+  <scope>text.html</scope>
+  <description>google-plusone-api</description>
+</snippet>

@@ -1,0 +1,16 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
+<snippet>
+  <content><![CDATA[<google-map-directions
+  ${1:api-key="apiKey"}
+  map="[[${3:map}]]"
+  start-address="${4:San Francisco}"
+  start-address="${5:Mountain View}"
+  travel-mode="${6:BICYCLING}"
+  ${7:waypoints='[{"location": "Palo Alto"}]'}
+  response="{{${2:response}}}">
+</google-map-directions>
+$8]]></content>
+  <tabTrigger>gmd</tabTrigger>
+  <scope>text.html</scope>
+  <description>google-map-directions</description>
+</snippet>

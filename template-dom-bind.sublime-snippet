@@ -1,12 +1,9 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
 <snippet>
-	<content><![CDATA[
-<template is="dom-bind">
-	$0
-</template>
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>domb</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>text.html</scope>
-	<description>Template "dom-bind"</description>
+  <content><![CDATA[<template is="dom-bind">
+  $0
+</template>$1]]></content>
+  <tabTrigger>domb</tabTrigger>
+  <scope>text.html</scope>
+  <description>Template dom-bind</description>
 </snippet>

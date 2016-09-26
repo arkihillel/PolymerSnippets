@@ -1,0 +1,14 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
+<snippet>
+  <content><![CDATA[<google-url-shortener
+  long-url="{{${1:longUrl}}}"
+  short-url="{{${2:shortUrl}}}"
+  ${4:on-google-url-shorten="onUrlShorten"}
+  ${5:on-google-url-shorten-error="onUrlShortenError"}
+  ${3:auto}>
+</google-url-shortener>
+$6]]></content>
+  <tabTrigger>gus</tabTrigger>
+  <scope>text.html</scope>
+  <description>google-url-shortener</description>
+</snippet>

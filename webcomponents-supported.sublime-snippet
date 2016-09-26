@@ -1,0 +1,16 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
+<snippet>
+  <content><![CDATA[// Load Web Components when not supported
+var webComponentsSupported = ('registerElement' in document
+    && 'import' in document.createElement('link')
+    && 'content' in document.createElement('template'));
+
+if (!webComponentsSupported) {
+  var script = document.createElement('script');
+  script.src = '${0:bower_components}/webcomponentsjs/webcomponents-lite.js';
+  document.head.appendChild(script);
+}$1]]></content>
+  <tabTrigger>wcs</tabTrigger>
+  <scope>text.html</scope>
+  <description>load web components polyfill when not supported</description>
+</snippet>

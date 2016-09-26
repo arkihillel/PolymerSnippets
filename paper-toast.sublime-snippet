@@ -1,9 +1,8 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
 <snippet>
-	<content><![CDATA[
-<paper-toast text="${1:Your draft has been discarded.}">$0</paper-toast>
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>paper-toast</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>text.html</scope>
+  <content><![CDATA[<paper-toast text="${1:Your draft has been discarded.}">$2</paper-toast>
+$3]]></content>
+  <tabTrigger>paper-toast</tabTrigger>
+  <scope>text.html</scope>
+  <description>paper toast</description>
 </snippet>

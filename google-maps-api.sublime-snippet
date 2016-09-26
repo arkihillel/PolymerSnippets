@@ -1,0 +1,12 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
+<snippet>
+  <content><![CDATA[<google-maps-api
+  api-key="${1:apiKey}"
+  on-api-load="${3:onMapsApiLoaded}"
+  on-library-error-message="${4:onMapsApiLoadError}">
+</google-maps-api>
+$5]]></content>
+  <tabTrigger>gmaapi</tabTrigger>
+  <scope>text.html</scope>
+  <description>google-maps-api</description>
+</snippet>

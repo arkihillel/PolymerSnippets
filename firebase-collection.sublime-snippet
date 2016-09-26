@@ -1,0 +1,11 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
+<snippet>
+  <content><![CDATA[<firebase-collection
+  location="https://${1:<YOUR-FIREBASE-APP>}.firebaseio.com"
+	data="{{${2:data}}}">
+</firebase-collection>
+$3]]></content>
+  <tabTrigger>fbc</tabTrigger>
+  <scope>text.html</scope>
+  <description>firebase-collection</description>
+</snippet>

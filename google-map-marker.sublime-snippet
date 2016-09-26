@@ -1,0 +1,15 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
+<snippet>
+  <content><![CDATA[<google-map-marker
+  latitude="${1:37.779}"
+  longitude="${2:-122.3892}"
+  title="${3:Go Giants!}"
+  info="${4:Some info...}"
+  icon="${5:imageUrl}"
+  draggable="${6:true}">
+</google-map-marker>
+$7]]></content>
+  <tabTrigger>gmm</tabTrigger>
+  <scope>text.html</scope>
+  <description>google-map-marker</description>
+</snippet>

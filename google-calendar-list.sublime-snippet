@@ -1,0 +1,11 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
+<snippet>
+  <content><![CDATA[<google-calendar-list
+  title="${1:title}"
+  calendars="{{${2:calendars}}}">
+</google-calendar-list>
+$3]]></content>
+  <tabTrigger>gcl</tabTrigger>
+  <scope>text.html</scope>
+  <description>google-calendar-list</description>
+</snippet>

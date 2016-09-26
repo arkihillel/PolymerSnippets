@@ -1,0 +1,35 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
+<snippet>
+  <content><![CDATA[<dom-module id="${2}">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+
+  </template>
+  <script>
+    (function (Polymer) {
+      'use strict';
+      class ${1} {
+        beforeRegister() {
+          this.is = '${2}';
+
+          this.properties = {
+            ${3}
+          };
+        }
+
+        attached() {
+        }
+      }
+
+      Polymer(${1});
+    })(Polymer);
+  </script>
+</dom-module>$4]]></content>
+  <tabTrigger>pe2015</tabTrigger>
+  <scope>text.html</scope>
+  <description>polymer element ES2015</description>
+</snippet>

@@ -1,0 +1,10 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
+<snippet>
+  <content><![CDATA[<google-js-api
+  on-api-load="${1:googleApiLoaded}">
+</google-js-api>
+$2]]></content>
+  <tabTrigger>gapi</tabTrigger>
+  <scope>text.html</scope>
+  <description>google-js-api</description>
+</snippet>

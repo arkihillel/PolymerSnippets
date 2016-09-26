@@ -1,0 +1,8 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
+<snippet>
+  <content><![CDATA[<template is="dom-repeat" items="$1"${2: index-as="index"}>
+  $0
+</template>$3]]></content>
+  <tabTrigger>dom-repeat</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

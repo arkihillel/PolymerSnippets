@@ -1,0 +1,10 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
+<snippet>
+  <content><![CDATA[<google-youtube-api
+  on-api-load="${1:googleYoutubeLoaded}">
+</google-youtube-api>
+$2]]></content>
+  <tabTrigger>gytapi</tabTrigger>
+  <scope>text.html</scope>
+  <description>google-youtube-api</description>
+</snippet>

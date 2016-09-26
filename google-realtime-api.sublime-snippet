@@ -1,0 +1,10 @@
+<!-- Generated with Atomizr - https://github.com/idleberg/sublime-atomizr -->
+<snippet>
+  <content><![CDATA[<google-realtime-api
+  on-api-load="${1:googleRealtimeLoaded}">
+</google-realtime-api>
+$2]]></content>
+  <tabTrigger>grapi</tabTrigger>
+  <scope>text.html</scope>
+  <description>google-realtime-api</description>
+</snippet>
